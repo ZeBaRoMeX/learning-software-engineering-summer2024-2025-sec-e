@@ -5,6 +5,13 @@ Step 4: Download and install Git Bash using default settings selected.
 Step 5: Create new folder on PC (named github54266).
 Step 6: Copy repository url from GitHub.
 Step 7: Open Git Bash terminal from inside github54266.
-Step 8: Create clone of repository using command: git clone [copied repository url from github].
+Step 8: Create clone of repository using command: >git clone [copied repository url from github].
 Step 9: Set hidden folders and files to be viewed in the repository clone folder.
 Step 10: Create .txt file to document the activities of today's lab.
+Step 11: Configure GitHub user login information into Git Bash using commands: >git config --global user.email "[email address]"
+									       >git config --global user.name "[user name]"
+Step 12: Add the new .txt file using command: >git add gitlearning.txt
+Step 13: Commit the changes (addition of .txt file) using command: >git commit -m "first commit"
+Step 14: Publish the commitment of changes using command: >git push
+Step 15: Enter user login information (username; password) on browser pop-up.
+Step 16: Check repository status using command: >git status
